@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "pnpm vite",
     "lint": "eslint --fix --ext .ts,.tsx src",
     "prepare": "husky install",
     "commitlint": "commitlint --config commitlint.config.cjs -e -V",
@@ -39,7 +40,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1"
   },
   "config": {
     "commitizen": {
