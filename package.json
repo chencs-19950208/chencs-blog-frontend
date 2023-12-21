@@ -51,8 +51,9 @@
     "webpack-merge": "^5.10.0"
   },
   "dependencies": {
-    "@ant-design/icons": "^5.2.6",
-    "antd": "^5.12.4",
+    "@douyinfe/semi-icons": "^2.49.1",
+    "@douyinfe/semi-icons-lab": "^2.49.1",
+    "@douyinfe/semi-ui": "^2.49.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.0"
