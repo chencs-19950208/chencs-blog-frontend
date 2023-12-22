@@ -22,13 +22,15 @@ const routes: RouteProps[] = [
 ];
 
 const useRoutes = () => {
-  console.log(location, 'location --- ');
   const { hash } = location;
+  
   if (!hash) {
     return Home();
   }
+
   const path = hash.split('#')[1];
   const routeFilter = routes.filter((col: RouteProps) => col.path === path);
+
   if (routeFilter.length > 0) {
     return routeFilter[0].component()
   } else {
